@@ -148,11 +148,11 @@ function Hero() {
         </a>
       </div>
       <div className="flex gap-6" style={{ color: COLORS.muted }}>
-        <a href="https://github.com/kavyasreede" target="_blank"
+        <a href="https://github.com/kavyasreede" target="_blank" rel="noopener noreferrer" referrerPolicy="no-referrer"
           className="hover:text-white transition"><GithubIcon size={22} /></a>
-        <a href="https://linkedin.com/in/kavyasreede" target="_blank"
+        <a href="https://linkedin.com/in/kavyasreede" target="_blank" rel="noopener noreferrer" referrerPolicy="no-referrer"
           className="hover:text-white transition"><LinkedinIcon size={22} /></a>
-        <a href="https://linkedin.com/in/kavyasreede" target="_blank"
+        <a href="https://linkedin.com/in/kavyasreede" target="_blank" rel="noopener noreferrer" referrerPolicy="no-referrer"
           className="hover:text-white transition"><Mail size={22} /></a>
       </div>
       <div className="mt-16 animate-bounce" style={{ color: COLORS.muted }}>
@@ -292,14 +292,14 @@ function Projects() {
                 <h3 className="text-white font-bold text-xl">{project.title}</h3>
                 <div className="flex gap-3">
                   {project.github && (
-                    <a href={project.github} target="_blank"
+                    <a href={project.github} target="_blank" rel="noopener noreferrer" referrerPolicy="no-referrer"
                       style={{ color: COLORS.muted }}
                       className="hover:text-white transition">
                       <GithubIcon size={20} />
                     </a>
                   )}
                   {project.demo && (
-                    <a href={project.demo} target="_blank"
+                    <a href={project.demo} target="_blank" rel="noopener noreferrer" referrerPolicy="no-referrer"
                       style={{ color: COLORS.muted }}
                       className="hover:text-white transition">
                       <ExternalLink size={20} />
@@ -368,17 +368,17 @@ function Contact() {
           Remote preferred.
         </p>
         <div className="flex justify-center gap-6 mb-8">
-          <a href="https://linkedin.com/in/kavyasreede" target="_blank"
+          <a href="https://linkedin.com/in/kavyasreede" target="_blank" rel="noopener noreferrer" referrerPolicy="no-referrer"
             style={{ background: COLORS.accent }}
             className="text-white px-6 py-3 rounded-lg flex items-center gap-2 hover:opacity-90 transition">
             <Mail size={18} /> Email Me
           </a>
-          <a href="https://linkedin.com/in/kavyasreede" target="_blank"
+          <a href="https://linkedin.com/in/kavyasreede" target="_blank" rel="noopener noreferrer" referrerPolicy="no-referrer"
             style={{ border: `1px solid ${COLORS.accent}`, color: COLORS.accent }}
             className="px-6 py-3 rounded-lg flex items-center gap-2 hover:bg-blue-900 transition">
             <LinkedinIcon size={22} /> LinkedIn
           </a>
-          <a href="https://github.com/kavyasreemaniga" target="_blank"
+          <a href="https://github.com/kavyasreemaniga" target="_blank" rel="noopener noreferrer" referrerPolicy="no-referrer"
             style={{ border: "1px solid #334155", color: COLORS.muted }}
             className="px-6 py-3 rounded-lg flex items-center gap-2 hover:text-white transition">
             <GithubIcon size={22} /> GitHub

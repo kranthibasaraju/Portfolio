@@ -23,10 +23,10 @@ export default function HomePage() {
             </Link>
           </div>
           <div className="socials">
-            <a href={profile.linkedin} target="_blank" rel="noreferrer">
+            <a href={profile.linkedin} target="_blank" rel="noopener noreferrer" referrerPolicy="no-referrer">
               <LinkedinIcon size={18} /> LinkedIn
             </a>
-            <a href={profile.linkedin} target="_blank" rel="noreferrer">
+            <a href={profile.linkedin} target="_blank" rel="noopener noreferrer" referrerPolicy="no-referrer">
               <Mail size={18} /> Contact
             </a>
           </div>

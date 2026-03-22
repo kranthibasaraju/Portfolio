@@ -76,12 +76,24 @@ export default function ProjectsPage() {
                   </div>
                   <div className="project-links">
                     {featuredProject.github && (
-                      <a href={featuredProject.github} target="_blank" rel="noreferrer" aria-label="GitHub repo">
+                      <a
+                        href={featuredProject.github}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        referrerPolicy="no-referrer"
+                        aria-label="GitHub repo"
+                      >
                         <GithubIcon size={17} />
                       </a>
                     )}
                     {featuredProject.demo && (
-                      <a href={featuredProject.demo} target="_blank" rel="noreferrer" aria-label="Live demo">
+                      <a
+                        href={featuredProject.demo}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        referrerPolicy="no-referrer"
+                        aria-label="Live demo"
+                      >
                         <ExternalLink size={17} />
                       </a>
                     )}
@@ -112,12 +124,24 @@ export default function ProjectsPage() {
                   </div>
                   <div className="project-links">
                     {project.github && (
-                      <a href={project.github} target="_blank" rel="noreferrer" aria-label="GitHub repo">
+                      <a
+                        href={project.github}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        referrerPolicy="no-referrer"
+                        aria-label="GitHub repo"
+                      >
                         <GithubIcon size={17} />
                       </a>
                     )}
                     {project.demo && (
-                      <a href={project.demo} target="_blank" rel="noreferrer" aria-label="Live demo">
+                      <a
+                        href={project.demo}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        referrerPolicy="no-referrer"
+                        aria-label="Live demo"
+                      >
                         <ExternalLink size={17} />
                       </a>
                     )}
