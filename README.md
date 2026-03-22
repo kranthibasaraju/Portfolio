@@ -100,6 +100,41 @@ You can host this portfolio for free using:
 
 For GitHub Pages, deploy `dist/` from a GitHub Actions workflow on push to your main branch.
 
+## GitHub Pages Setup (Automated)
+
+This repo now includes an automation workflow:
+
+- `.github/workflows/deploy-pages.yml`
+
+### Is deployment automated already?
+
+- Yes, once GitHub Pages is enabled in repo settings.
+- The workflow auto-builds and deploys on every push to `main`.
+- You can also trigger it manually from the Actions tab (`workflow_dispatch`).
+
+### One-time GitHub setup
+
+1. Open your GitHub repository.
+2. Go to `Settings -> Pages`.
+3. Under `Build and deployment`, set:
+   - `Source: GitHub Actions`
+4. Save.
+
+After this, push to `main` and Pages deploys automatically.
+
+### Notes for project/repo pages
+
+- Workflow auto-detects base path:
+  - `owner.github.io` repo -> `/`
+  - any other repo -> `/<repo-name>/`
+- Workflow also creates `dist/404.html` from `index.html` to reduce refresh/route issues for client-side routing pages.
+
+### Verify deployment
+
+1. Push changes to `main`.
+2. Open `Actions` tab and wait for `Deploy to GitHub Pages` to succeed.
+3. Open `Settings -> Pages` to see the published URL.
+
 ## Agent Docs
 
 - [AGENTS.md](./AGENTS.md) - onboarding for any coding agent
