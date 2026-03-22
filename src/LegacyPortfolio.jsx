@@ -152,7 +152,7 @@ function Hero() {
           className="hover:text-white transition"><GithubIcon size={22} /></a>
         <a href="https://linkedin.com/in/kavyasreede" target="_blank"
           className="hover:text-white transition"><LinkedinIcon size={22} /></a>
-        <a href="mailto:kavyasreede@gmail.com"
+        <a href="https://linkedin.com/in/kavyasreede" target="_blank"
           className="hover:text-white transition"><Mail size={22} /></a>
       </div>
       <div className="mt-16 animate-bounce" style={{ color: COLORS.muted }}>
@@ -368,7 +368,7 @@ function Contact() {
           Remote preferred.
         </p>
         <div className="flex justify-center gap-6 mb-8">
-          <a href="mailto:kavyasreede@gmail.com"
+          <a href="https://linkedin.com/in/kavyasreede" target="_blank"
             style={{ background: COLORS.accent }}
             className="text-white px-6 py-3 rounded-lg flex items-center gap-2 hover:opacity-90 transition">
             <Mail size={18} /> Email Me

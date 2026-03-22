@@ -3,8 +3,7 @@ export const profile = {
   role: "Senior Data Engineer",
   blurb:
     "Building scalable data platforms and production pipelines across healthcare, fintech, and technology.",
-  location: "Philadelphia, PA",
-  email: "kavyasreede@gmail.com",
+  location: "Remote, USA",
   linkedin: "https://linkedin.com/in/kavyasreede",
   github: "https://github.com/kavyasreede",
   resume: "/resume.pdf",

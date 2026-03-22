@@ -29,7 +29,7 @@ export default function App() {
 
       <footer className="footer">
         <p>© 2026 Kavya Sree Maniga</p>
-        <p>Legacy source preserved in `src/LegacyPortfolio.jsx`</p>
+        <p>Portfolio prototype track</p>
       </footer>
     </div>
   );

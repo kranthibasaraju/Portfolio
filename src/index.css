@@ -114,6 +114,10 @@ a {
   padding: 26px 0;
 }
 
+.hero-home {
+  position: relative;
+}
+
 .hero-copy h1 {
   font-family: "Space Grotesk", sans-serif;
   font-size: clamp(2.1rem, 6vw, 4.4rem);
@@ -435,11 +439,27 @@ a {
   .hero {
     grid-template-columns: 1fr;
     min-height: auto;
-    padding-top: 34px;
+    padding: 34px 16px 20px;
+  }
+
+  .hero-home {
+    border: 1px solid #273656;
+    border-radius: 18px;
+    overflow: hidden;
+    background-image:
+      linear-gradient(to bottom, #0a1224ea 0%, #0a1224cf 38%, #0a1224f0 100%),
+      var(--hero-image);
+    background-size: cover;
+    background-position: center 28%;
+  }
+
+  .hero-home .hero-copy {
+    position: relative;
+    z-index: 1;
   }
 
   .hero-visual {
-    justify-self: start;
+    display: none;
   }
 
   .stack-grid,

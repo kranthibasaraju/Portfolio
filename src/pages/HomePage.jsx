@@ -6,7 +6,7 @@ import { experience, profile, techStack } from "../data/portfolioData";
 export default function HomePage() {
   return (
     <main className="page-wrap">
-      <section className="hero">
+      <section className="hero hero-home" style={{ "--hero-image": `url(${heroImage})` }}>
         <div className="hero-copy">
           <p className="eyebrow">Data Platform Engineer</p>
           <h1>
@@ -26,8 +26,8 @@ export default function HomePage() {
             <a href={profile.linkedin} target="_blank" rel="noreferrer">
               <LinkedinIcon size={18} /> LinkedIn
             </a>
-            <a href={`mailto:${profile.email}`}>
-              <Mail size={18} /> Email
+            <a href={profile.linkedin} target="_blank" rel="noreferrer">
+              <Mail size={18} /> Contact
             </a>
           </div>
         </div>
