@@ -4,6 +4,7 @@ export const profile = {
   blurb:
     "Building scalable data platforms and production pipelines across healthcare, fintech, and technology.",
   location: "Remote, USA",
+  email: "kavyasreemaniga@gmail.com",
   linkedin: "https://linkedin.com/in/kavyasreede",
   github: "https://github.com/kavyasreede",
   resume: "/resume.pdf",

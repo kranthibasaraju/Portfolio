@@ -57,3 +57,15 @@ Do not duplicate content constants in page files unless explicitly needed.
 - [ ] Mobile layout verified for home hero and page sections
 - [ ] Data changes made in shared data file when possible
 - [ ] Commit message is milestone-scoped and descriptive
+
+<!-- BEGIN ppt-agent-usage-pointer -->
+## Agent usage
+
+Cross-project agent guidance — **DevHub project profiles, skills, and the PPT MCP servers** — lives
+in the Projects-wide guide: `../CLAUDE.md` (marker `ppt-agent-usage`). That is the source of truth;
+do not duplicate it here.
+
+**This repo's current-state runbook is [`./PROFILE.md`](./PROFILE.md)** — read it before operating
+or modifying this repo, and update it (the relevant `##` section **and** a `## Change Log` row) on
+any material change (architecture / infra / shipped feature / new or closed bug / deploy).
+<!-- END ppt-agent-usage-pointer -->

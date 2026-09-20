@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { GithubIcon, LinkedinIcon, Mail, ExternalLink, Download, ChevronDown } from "lucide-react";
 
 const COLORS = {

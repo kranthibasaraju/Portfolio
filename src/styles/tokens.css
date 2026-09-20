@@ -1,0 +1,20 @@
+:root {
+  --color-bg: #0a1224;
+  --color-header-bg: rgba(10, 18, 36, 0.82);
+  --color-panel: #1a243a;
+  --color-panel-soft: #141f33;
+  --color-surface-accent: #121d31;
+  --color-pill-bg: rgba(157, 184, 255, 0.08);
+  --color-text: #e5ecff;
+  --color-text-muted: #a4afcb;
+  --color-line: #334160;
+  --color-line-soft: #3b4a6f;
+  --color-line-strong: #2b3854;
+  --color-line-accent: #46608b;
+  --color-primary: #6e90f7;
+  --color-primary-strong: #94aeff;
+  --color-secondary: #52ddb0;
+  --color-ink-strong: #0a1e54;
+  --font-body: "Inter", sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+}
